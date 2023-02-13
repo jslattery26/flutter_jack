@@ -1,7 +1,7 @@
 # flutter_jack
 a starter template for flutter/firebase/riverpod/hooks/gorouter/flavors/theming/icons/launchscreen
 
-how to use
+## Basic Setup
 
 1) `flutter pub get`
 
@@ -9,10 +9,24 @@ how to use
 
 3) Find and Replace all instances of `ChangeMyAppName` with your desired app name.
 
-4) Change the Icons in the assets directory based off of the examples i have. keep the filenames the same and they have their corresponding flavor.
+## Generate Icons and Launch Screens
 
-5) Create an .env file with your flavor colors
+  1) Change the Icons in the assets directory based off of the examples i have. keep the filenames the same and they have their corresponding flavor.
   
-  LOCAL_COLOR="#FFFFFF"
-DEV_COLOR="#000000"
-PROD_COLOR="#180437"
+  2) In the app directory create an .env file with your flavor colors
+  ```env
+    LOCAL_COLOR="#FFFFFF"
+    DEV_COLOR="#000000"
+    PROD_COLOR="#180437"
+  ```
+  
+  3) in root dir
+  ```
+  chmod +x icons_and_launch_screen.sh
+  ```
+  
+  4) 
+  ```
+  ./icons_and_launch_screen.sh
+  ```
+  
