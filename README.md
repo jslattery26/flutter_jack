@@ -58,3 +58,10 @@ a starter template for flutter/firebase/riverpod/hooks/gorouter/flavors/theming/
   ```
   firebase init
   ```
+## Theming
+
+For theming this uses the dynamic_color package but when the device isn't supported it uses some themes found in `app/lib/theming/themes.dart`
+
+The `defaultLightColorScheme` and `defaultDarkColorScheme` can be generated using the [Material 3 Theme Builder](https://m3.material.io/theme-builder#/dynamic)
+
+Then all you have to do is export to flutter and replace the code in `app/lib/theming/themes.dart`.
