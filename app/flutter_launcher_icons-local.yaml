@@ -1,6 +1,0 @@
-flutter_icons:
-  image_path: "assets/icon-local.png" #ios
-  android: true
-  ios: true
-  adaptive_icon_background: ${LOCAL_COLOR} #android
-  adaptive_icon_foreground: "assets/foreground.png" #android

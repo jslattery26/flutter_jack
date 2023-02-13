@@ -1,7 +1,0 @@
-{
-    "editor.formatOnSave": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-}
