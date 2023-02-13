@@ -8,7 +8,7 @@ cd functions
 npm install && npm run build:watch &
 
 echo "........... killing any running ports"
-npx kill-port 8082 8085 8086
+npx kill-port 9099 5002 8082 8086 9199
 
 cd ..
 if [ -z "$1" ]; then 
