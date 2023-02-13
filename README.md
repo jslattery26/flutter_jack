@@ -22,9 +22,9 @@ a starter template for flutter/firebase/riverpod/hooks/gorouter/flavors/theming/
   ```
   2) In the app directory create an .env file with your flavor colors
   ```env
-    LOCAL_COLOR="#FFFFFF"
-    DEV_COLOR="#000000"
-    PROD_COLOR="#180437"
+    LOCAL_COLOR='"#FFFFFF"'
+    DEV_COLOR='"#000000"'
+    PROD_COLOR='"#180437"'
   ```
   
   3) in root dir
