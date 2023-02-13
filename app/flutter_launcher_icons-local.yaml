@@ -1,6 +1,6 @@
 flutter_icons:
-  image_path: "assets/fullicon-local.png" #ios
+  image_path: "assets/icon-local.png" #ios
   android: true
   ios: true
-  adaptive_icon_background: "#FFFFFF" #android
+  adaptive_icon_background: {{env "LOCAL_COLOR"}} #android
   adaptive_icon_foreground: "assets/foreground.png" #android

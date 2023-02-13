@@ -2,10 +2,10 @@
 flutter_native_splash:
   color: "#000000"
   image: assets/foreground.png
-  color_dark: "#000000"
+  color_dark: {{env "DEV_COLOR"}}
   image_dark: assets/foreground.png
   android_12:
     image: assets/foreground.png
-    icon_background_color: "#000000"
+    icon_background_color: {{env "DEV_COLOR"}}
     image_dark: assets/foreground.png
-    icon_background_color_dark: "#000000"
+    icon_background_color_dark: {{env "DEV_COLOR"}}

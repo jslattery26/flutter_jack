@@ -1,11 +1,11 @@
 # flutter pub run flutter_native_splash:create --flavor local
 flutter_native_splash:
-  color: "#FFFFFF"
+  color: {{env "LOCAL_COLOR"}}
   image: assets/foreground.png
-  color_dark: "#FFFFFF"
+  color_dark: {{env "LOCAL_COLOR"}}
   image_dark: assets/foreground.png
   android_12:
     image: assets/foreground.png
-    icon_background_color: "#FFFFFF"
+    icon_background_color: {{env "LOCAL_COLOR"}}
     image_dark: assets/foreground.png
-    icon_background_color_dark: "#FFFFFF"
+    icon_background_color_dark: {{env "LOCAL_COLOR"}}
