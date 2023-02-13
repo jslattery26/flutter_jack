@@ -12,23 +12,14 @@ a starter template for flutter/firebase/riverpod/hooks/gorouter/flavors/theming/
 ## Firebase Setup
 
   1) in app dir (install flutterfire if you haven't)
+  use `--account <email>`if you need to specify firebase account
   ```
   flutterfire config
   ```
   
-  1) in firebase dir
+  2) in firebase dir 
   ```
   firebase init
-  ```
-  
-  1) in root dir
-  ```
-  chmod +x icons_and_launch_screen.sh
-  ```
-  
-  1) 
-  ```
-  ./icons_and_launch_screen.sh
   ```
 
 ## Generate Icons and Launch Screens
