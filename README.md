@@ -3,9 +3,9 @@ a starter template for flutter/firebase/riverpod/hooks/gorouter/flavors/theming/
 
 ## Basic Setup
 
-1) `flutter pub get`
+1) `cd app && flutter pub get`
 
-2) `cd app && flutter pub run change_app_package_name:main <com.new.package.name>`
+2) `flutter pub run change_app_package_name:main <com.new.package.name>`
 
 3) Find and Replace all instances of `ChangeMyAppName` with your desired app name.
 
