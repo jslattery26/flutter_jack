@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd firebase
 echo "........... getting firebase runtime config"
 firebase functions:config:get > functions/.runtimeconfig.json
 
