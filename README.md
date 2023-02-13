@@ -9,6 +9,28 @@ a starter template for flutter/firebase/riverpod/hooks/gorouter/flavors/theming/
 
 3) Find and Replace all instances of `ChangeMyAppName` with your desired app name.
 
+## Firebase Setup
+
+  1) in app dir (install flutterfire if you haven't)
+  ```
+  flutterfire config
+  ```
+  
+  1) in firebase dir
+  ```
+  firebase init
+  ```
+  
+  1) in root dir
+  ```
+  chmod +x icons_and_launch_screen.sh
+  ```
+  
+  1) 
+  ```
+  ./icons_and_launch_screen.sh
+  ```
+
 ## Generate Icons and Launch Screens
 
   1) Change the Icons in the assets directory based off of the examples i have. keep the filenames the same and they have their corresponding flavor.

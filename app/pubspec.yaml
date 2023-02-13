@@ -29,6 +29,7 @@ dependencies:
   flutter_use: ^0.0.3
 
   #essentials
+  logger: ^1.1.0
   uuid: ^3.0.7
   shared_preferences: ^2.0.16
   encrypt: ^5.0.1

@@ -1,2 +1,3 @@
 app/.env.dev
 app/.env.local
+app/lib/firebase_options.dart
