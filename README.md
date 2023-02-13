@@ -12,7 +12,14 @@ a starter template for flutter/firebase/riverpod/hooks/gorouter/flavors/theming/
 ## Generate Icons and Launch Screens
 
   1) Change the Icons in the assets directory based off of the examples i have. keep the filenames the same and they have their corresponding flavor.
-  
+  ```
+  app
+  └───assets
+      │   icon.png
+      │   icon-dev.png
+      │   icon-local.png
+      │   foreground.png
+  ```
   2) In the app directory create an .env file with your flavor colors
   ```env
     LOCAL_COLOR="#FFFFFF"
